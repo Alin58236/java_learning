@@ -58,6 +58,18 @@ public class Main {
 
 
         //se poate trece prin array si asa
-        Arrays.stream(numbers.forEach(System.out::println));
+        //Arrays.stream(numbers.forEach(System.out::println));
+
+
+        //taking user input
+
+        Scanner scanner = new Scanner(System.in);
+
+        String s = scanner.nextLine(); //read
+        System.out.println(s); //write
+
+        
+
+
     }
 }
