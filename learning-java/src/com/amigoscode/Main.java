@@ -68,7 +68,7 @@ public class Main {
         String s = scanner.nextLine(); //read
         System.out.println(s); //write
 
-        
+
 
 
     }
