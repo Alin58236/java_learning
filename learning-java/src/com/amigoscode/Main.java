@@ -24,5 +24,32 @@ public class Main {
 
         LocalDateTime timeNow = LocalDateTime.now();
         System.out.println(timeNow);
+
+
+        // arrays
+
+        int [] numbers = new int[3];
+
+        numbers[0]=10;
+        numbers[2]=4;
+        numbers[1]=77;
+
+        for(int i=0;i<=numbers.length-1;i++){
+            System.out.println(numbers[i]);
+        }
+
+        //switch statements
+        int i=1;
+        switch (i){
+            case 1:
+                System.out.println("wtf1");
+                break;
+            case 2:
+                System.out.println("wtf2");
+                break;
+            default:
+                System.out.println("bun");
+        }
+
     }
 }
