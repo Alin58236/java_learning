@@ -51,5 +51,13 @@ public class Main {
                 System.out.println("bun");
         }
 
+        //foreach
+
+        for(int number : numbers)
+            System.out.println(number);
+
+
+        //se poate trece prin array si asa
+        Arrays.stream(numbers.forEach(System.out::println));
     }
 }
